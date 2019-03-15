@@ -49,5 +49,5 @@ services:
 
 networks:
   traefik:
-    external:
+    network:
       name: traefik_ingress
