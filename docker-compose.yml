@@ -4,7 +4,7 @@ version: "3.7"
 
 services:
   selenium-chrome:
-    image: selenium/node-chrome:3.141.59-krypton
+    image: selenium/standalone-chrome:3.141.59-lithium
     volumes:
       - /dev/shm:/dev/shm
     deploy:
