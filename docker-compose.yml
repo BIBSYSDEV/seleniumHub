@@ -19,7 +19,7 @@ services:
       labels:
         - traefik.frontend.entryPoints=https,http
         - traefik.backend=selenium-hub
-        - traefik.frontend.rule=Host:selenium-utv.bibsys.no;PathPrefix:/
+        - traefik.frontend.rule=Host:swarm-utv.bibsys.no;PathPrefix:/selenium
         - traefik.frontend.redirect.permanent=true
         - traefik.enable=true
         - traefik.port=4444
