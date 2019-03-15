@@ -1,0 +1,1 @@
+Prosjekt for å kjøre opp selenium test server på swarm
